@@ -55,5 +55,5 @@ if __name__=='__main__':
             th.terminate()
         print('error!', sys.exc_info()[0])
     finally:
-        print('save state')
+        print('save state11')
         pickle.dump(urls, open('urls.bin', 'wb'))
